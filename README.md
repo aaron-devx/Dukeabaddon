@@ -2,13 +2,13 @@
 
 <p align="center">
   <b>Full-stack apps and automation for AI-assisted dev — MCP tools, agents, n8n pipelines.</b><br/>
-  Philippines 🇵🇭 · TypeScript · Python · n8n · <a href="https://aaronmecate.me">aaronmecate.me</a>
+  TypeScript · Python · n8n
 </p>
 
 <p align="center"><i>MCP tooling for coding agents — Cursor, Claude Code, and Codex.</i></p>
 
 <p align="center">
-  <a href="https://aaronmecate.me"><img alt="View Portfolio" src="https://img.shields.io/badge/View_Portfolio-0078D4?style=for-the-badge"/></a>
+  <a href="https://aaronmecate.me" target="_blank" rel="noopener noreferrer"><img alt="View Portfolio" src="https://img.shields.io/badge/View_Portfolio-0078D4?style=for-the-badge"/></a>
 </p>
 
 ## 🥞 Tech Stack
