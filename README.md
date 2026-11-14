@@ -28,8 +28,8 @@
 
 | | What it does | Installs |
 |---|---|---|
-| **[Gate-MCP](https://github.com/aaron-devx/Gate-MCP)** | Local MCP gateway that shrinks context before it hits the model: AST signatures (Tree-sitter), SQLite dedup cache, TOON tables, screenshot OCR. Every savings number is labelled with an honest `billingScope`. | [![npm](https://img.shields.io/npm/dt/@gatemcp/cli?label=coding%20agents&color=brightgreen&style=flat-square)](https://www.npmjs.com/package/@gatemcp/cli) |
-| **[Telic](https://github.com/aaron-devx/Telic)** | Turns a rough agent request into scoped, permissioned work, then verifies the result against a SHA-256 content-addressed ledger. Built for Cursor, Claude Code, Codex, Cline, and Kiro. | [![npm](https://img.shields.io/npm/dt/telic-mcp?label=coding%20agents&color=brightgreen&style=flat-square)](https://www.npmjs.com/package/telic-mcp) |
+| **[Gate-MCP](https://github.com/aaron-devx/Gate-MCP)** | Local MCP gateway that shrinks context before it hits the model: AST signatures (Tree-sitter), SQLite dedup cache, TOON tables, screenshot OCR. Every savings number is labelled with an honest `billingScope`. | [![npm](https://img.shields.io/npm/dt/@gatemcp/cli?label=npm%20installs&color=brightgreen&style=flat-square)](https://www.npmjs.com/package/@gatemcp/cli) |
+| **[Telic](https://github.com/aaron-devx/Telic)** | Turns a rough agent request into scoped, permissioned work, then verifies the result against a SHA-256 content-addressed ledger. Built for Cursor, Claude Code, Codex, Cline, and Kiro. | [![npm](https://img.shields.io/npm/dt/telic-mcp?label=npm%20installs&color=brightgreen&style=flat-square)](https://www.npmjs.com/package/telic-mcp) |
 | **[ERD Visualizer](https://github.com/aaron-devx/ERD-Visualizer)** | VS Code extension: SQL DDL / JSON schema → interactive ER diagram, with AST parsers for 5 dialects and PNG/PDF export. | [![installs](https://vsmarketplacebadges.dev/installs/dukeabaddon.erd-visualizer.svg)](https://marketplace.visualstudio.com/items?itemName=dukeabaddon.erd-visualizer) |
 
 ## 🚀 Apps & automation
