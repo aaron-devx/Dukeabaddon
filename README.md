@@ -5,7 +5,7 @@
   Philippines 🇵🇭 · TypeScript · Python · n8n · <a href="https://aaronmecate.me">aaronmecate.me</a>
 </p>
 
-<p align="center"><i>Open-source MCP servers and npm packages for Cursor, Claude Code, and Codex.</i></p>
+<p align="center"><i>MCP tooling for coding agents — Cursor, Claude Code, and Codex.</i></p>
 
 <p align="center">
   <a href="https://aaronmecate.me"><img alt="View Portfolio" src="https://img.shields.io/badge/View_Portfolio-0078D4?style=for-the-badge"/></a>
@@ -24,12 +24,12 @@
 ![](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) 
 ![](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-## 🛠 Tools for AI coding agents
+## 🛠 Tools for coding agents
 
 | | What it does | Installs |
 |---|---|---|
-| **[Gate-MCP](https://github.com/aaron-devx/Gate-MCP)** | Local MCP gateway that shrinks context before it hits the model: AST signatures (Tree-sitter), SQLite dedup cache, TOON tables, screenshot OCR. Every savings number is labelled with an honest `billingScope`. | [![npm](https://img.shields.io/npm/dt/@gatemcp/cli?label=npm%20downloads&color=cb3837)](https://www.npmjs.com/package/@gatemcp/cli) |
-| **[Telic](https://github.com/aaron-devx/Telic)** | Turns a rough agent request into scoped, permissioned work, then verifies the result against a SHA-256 content-addressed ledger. Adapters for Codex, Claude Code, Cursor, Cline, Kiro. | [![npm](https://img.shields.io/npm/dt/telic-mcp?label=npm%20downloads&color=cb3837)](https://www.npmjs.com/package/telic-mcp) |
+| **[Gate-MCP](https://github.com/aaron-devx/Gate-MCP)** | Local MCP gateway that shrinks context before it hits the model: AST signatures (Tree-sitter), SQLite dedup cache, TOON tables, screenshot OCR. Every savings number is labelled with an honest `billingScope`. | [![npm](https://img.shields.io/npm/dt/@gatemcp/cli?label=coding%20agents&color=brightgreen&style=flat-square)](https://www.npmjs.com/package/@gatemcp/cli) |
+| **[Telic](https://github.com/aaron-devx/Telic)** | Turns a rough agent request into scoped, permissioned work, then verifies the result against a SHA-256 content-addressed ledger. Built for Cursor, Claude Code, Codex, Cline, and Kiro. | [![npm](https://img.shields.io/npm/dt/telic-mcp?label=coding%20agents&color=brightgreen&style=flat-square)](https://www.npmjs.com/package/telic-mcp) |
 | **[ERD Visualizer](https://github.com/aaron-devx/ERD-Visualizer)** | VS Code extension: SQL DDL / JSON schema → interactive ER diagram, with AST parsers for 5 dialects and PNG/PDF export. | [![installs](https://vsmarketplacebadges.dev/installs/dukeabaddon.erd-visualizer.svg)](https://marketplace.visualstudio.com/items?itemName=dukeabaddon.erd-visualizer) |
 
 ## 🚀 Apps & automation
