@@ -1,69 +1,52 @@
-## Aaron Mecate
+<h1 align="center">Aaron Mecate</h1>
 
-**Software Engineer specializing in Systems Architecture, DevTools, and High-Performance Apps**
+<p align="center">
+  <b>I build local-first developer tools for AI coding agents — and the apps around them.</b><br/>
+  Philippines 🇵🇭 · TypeScript · Flutter · <a href="https://aaronmecate.me">aaronmecate.me</a>
+</p>
 
-I build complete web applications, automation solutions, and complex tooling designed to simplify workflows. Based in the Philippines, I specialize in crafting scalable systems using React, TypeScript, and AI-driven logic.
-
-<!-- TIP-LIST:START -->
 > [!TIP]
-> **Building High-Signal Developer Tools and Full-Stack Solutions**
->
-> I focus on solving hard technical constraints, maintaining clean architecture, and delivering tools that matter. From AST-parsing algorithms to on-device ML and automated data pipelines, my work bridges the gap between raw engineering and user experience.
->
-> <a href="https://aaronmecate.me"><img alt="View Portfolio" src="https://img.shields.io/badge/View_Portfolio-0078D4?style=for-the-badge"/></a>
-> 
-> <details>
-> <summary>⚡ <strong>My Core Competencies</strong></summary>
-> <br/>
->
-> **Systems & DevTools**: Building local MCP servers, AST optimizers, and VS Code extensions.<br>
-> **Mobile & On-Device AI**: Engineering apps with Flutter, Dart, and TFLite (MobileFaceNet).<br>
-> **Full-Stack & Data**: React, Node.js, Supabase, PostgreSQL, and geospatial visualization.<br>
-> </details>
-<!-- TIP-LIST:END -->
+> **Now building → [Telic](https://github.com/aaron-devx/Telic)**: a permission-gated workflow layer for coding agents. The controller never calls a model; it only accepts work the evidence supports. Public preview on npm as `telic-mcp`.
 
-## 🥞 Tech Stack
+## 🛠 Tools for AI coding agents
 
-![](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) 
-![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) 
-![](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) 
-![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) 
-![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
-![](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) 
-![](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) 
-![](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) 
-![](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) 
-![](https://img.shields.io/badge/n8n-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white) 
-![](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+| | What it does | Proof |
+|---|---|---|
+| **[Gate-MCP](https://github.com/aaron-devx/Gate-MCP)** | Local MCP gateway that shrinks context before it hits the model: AST signatures (Tree-sitter), SQLite dedup cache, TOON tables, screenshot OCR. Every savings number is labelled with an honest `billingScope`. | [![npm](https://img.shields.io/npm/dt/@gatemcp/cli?label=npm%20downloads&color=cb3837)](https://www.npmjs.com/package/@gatemcp/cli) |
+| **[Telic](https://github.com/aaron-devx/Telic)** | Turns a rough agent request into scoped, permissioned work, then verifies the result against a SHA-256 content-addressed ledger. Adapters for Codex, Claude Code, Cursor, Cline, Kiro. | [![npm](https://img.shields.io/npm/v/telic-mcp?label=telic-mcp&color=cb3837)](https://www.npmjs.com/package/telic-mcp) |
+| **[ERD Visualizer](https://github.com/aaron-devx/ERD-Visualizer)** | VS Code extension: SQL DDL / JSON schema → interactive ER diagram, with AST parsers for 5 dialects and PNG/PDF export. | [![installs](https://vsmarketplacebadges.dev/installs/dukeabaddon.erd-visualizer.svg)](https://marketplace.visualstudio.com/items?itemName=dukeabaddon.erd-visualizer) |
 
-## 🏗️ Featured Engineering Projects
+## 📱 Apps & on-device AI
 
-### Systems Architecture & Developer Tools
-Complex tooling focusing on AST parsing, offline ML models, and developer experience.
+| | What it does | Try it |
+|---|---|---|
+| **[FaceWatch](https://github.com/aaron-devx/FaceWatch)** | Fully on-device face recognition with a 3D mesh overlay. Flutter + TFLite (MobileFaceNet). No cloud, no server. | [APK](https://github.com/aaron-devx/FaceWatch/releases/latest) |
+| **[KursoKo](https://github.com/aaron-devx/KursoKo)** | Free RIASEC career guidance for Filipino SHS students: deterministic Holland-code matching to careers, schools and scholarships. | [Live](https://kurso-ko.vercel.app) |
+| **[specter](https://github.com/aaron-devx/specter)** | Self-hosted public-page monitor: fast Relay-JSON parsing with a stealth Playwright fallback, pushing to n8n / Discord / Telegram. | Docker |
 
-| 📂 Project | ⚙️ Architecture & Tech | ⭐ Stars | 📥 Installs |
-| :--- | :--- | :--- | :--- |
-| **[Gate-MCP](https://github.com/Dukeabaddon/Gate-MCP)**<br>Context-compression server | **TS, Node.js, Tree-sitter**<br>5-layer LLM context compression via AST parsing & SQLite WAL caching. | [![Stars](https://img.shields.io/github/stars/Dukeabaddon/Gate-MCP?style=flat-square)](https://github.com/Dukeabaddon/Gate-MCP/stargazers) | [![npm downloads](https://img.shields.io/npm/dt/@gatemcp/cli?label=npm%20downloads&style=flat-square)](https://www.npmjs.com/package/@gatemcp/cli) |
-| **[Telic](https://github.com/Dukeabaddon/Telic)**<br>Agent workflow compiler | **TS, Node.js, MCP, SQLite**<br>Turns rough requests into evidence-backed agent workflows with permissions, verification, and local run ledgers. | [![Stars](https://img.shields.io/github/stars/Dukeabaddon/Telic?style=flat-square)](https://github.com/Dukeabaddon/Telic/stargazers) | [![npm downloads](https://img.shields.io/npm/dt/telic-mcp?label=npm%20downloads&style=flat-square)](https://www.npmjs.com/package/telic-mcp) |
-| **[ERD-Visualizer](https://github.com/Dukeabaddon/ERD-Visualizer)**<br>VS Code Extension | **TS, VS Code API, SVG**<br>Parses raw SQL DDL and JSON schemas to render interactive entity-relationship diagrams. | [![Stars](https://img.shields.io/github/stars/Dukeabaddon/ERD-Visualizer?style=flat-square)](https://github.com/Dukeabaddon/ERD-Visualizer/stargazers) | [![Marketplace installs](https://vsmarketplacebadges.dev/installs-short/dukeabaddon.erd-visualizer.svg)](https://marketplace.visualstudio.com/items?itemName=dukeabaddon.erd-visualizer) |
+<details>
+<summary>🗄️ Earlier experiments</summary>
 
-### Full-Stack Web & Data Integration
-High-performance dashboards and transactional applications.
+- **EarthPH**: seismic dashboard for the Philippines (React, Supabase, Leaflet)
+- **QC-Navigo**: mobile GIS routing for Quezon City (Flutter)
 
-| 📂 Project | ⚙️ Architecture & Tech | ⭐ Stars | 🚦 Status |
-| :--- | :--- | :--- | :--- |
-| **[EarthPH](https://github.com/Dukeabaddon/earthph)**<br>Seismic dashboard | **React, Supabase, Leaflet**<br>Real-time earthquake monitor with 24-hr TTL mapping PHIVOLCS geo-data. | [![Stars](https://img.shields.io/github/stars/Dukeabaddon/earthph?style=flat-square)](https://github.com/Dukeabaddon/earthph/stargazers) | [![status](https://img.shields.io/badge/status-paused-yellow?style=flat-square)](https://github.com/Dukeabaddon/earthph) |
-| **[QC-Navigo](https://github.com/Dukeabaddon/qc-navigo-downloads)**<br>Mobile GIS routing | **Flutter, Dart, APIs**<br>Handles complex geospatial mobile interactions and location-based logic natively. | [![Stars](https://img.shields.io/github/stars/Dukeabaddon/qc-navigo-downloads?style=flat-square)](https://github.com/Dukeabaddon/qc-navigo-downloads/stargazers) | [![status](https://img.shields.io/badge/status-paused-yellow?style=flat-square)](https://github.com/Dukeabaddon/qc-navigo-downloads) |
-| **[KursoKo](https://github.com/Dukeabaddon/KursoKo)**<br>Career assessment | **React, Vite, Tailwind**<br>RIASEC assessment for SHS students with careers, schools, and scholarships — client-side scoring, no backend. | [![Stars](https://img.shields.io/github/stars/Dukeabaddon/KursoKo?style=flat-square&logo=github)](https://github.com/Dukeabaddon/KursoKo) | [![status](https://img.shields.io/badge/status-live-brightgreen?style=flat-square)](https://kurso-ko.vercel.app) |
+</details>
+
+## 📦 Latest releases
+
+<!-- RELEASES:START -->
+_Auto-updated by a GitHub Action: coming soon._
+<!-- RELEASES:END -->
+
+## 🧰 Stack
+
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,flutter,dart,python,supabase,sqlite,vscode&theme=dark" alt="TypeScript, React, Next.js, Node.js, Flutter, Dart, Python, Supabase, SQLite, VS Code" />
+</p>
 
 ---
 
-### 🔗 Connect With Me
-
-<div align="left">
-  <a href="https://www.linkedin.com/in/aaronmecate/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin logo"  /></a>
-  <a href="https://aaronmecate.me" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=firefox&logoColor=white" alt="portfolio logo"  /></a>
-  <a href="https://github.com/Dukeabaddon" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github logo"  /></a>
-</div>
-
-
+<p align="center">
+  <a href="https://aaronmecate.me">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/REPLACE_ME">LinkedIn</a>
+</p>
